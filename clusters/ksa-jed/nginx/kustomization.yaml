@@ -1,5 +1,5 @@
 resources:
-  - ../../../../common/base-nginx
+  - ../../../common/base-nginx
 
 patches:
   - path: patch-ingress.yaml
