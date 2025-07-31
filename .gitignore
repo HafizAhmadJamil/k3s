@@ -1,0 +1,4 @@
+kubeconfigs/
+*.log
+*.key
+*.crt
