@@ -1,2 +1,4 @@
 resources:
-  - nginx.yaml
+  - ../../common/base-nginx
+patchesStrategicMerge:
+  - apps/nginx-ingress-patch.yaml

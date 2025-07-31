@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - nginx.{{CLUSTER}}.lab.net
+        - nginx.placeholder.lab.net
       secretName: traefik-wildcard
   rules:
-    - host: nginx.{{CLUSTER}}.lab.net
+    - host: nginx.placeholder.lab.net
       http:
         paths:
           - path: /
