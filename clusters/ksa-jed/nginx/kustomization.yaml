@@ -1,6 +1,7 @@
 resources:
   - ../../../common/base-nginx
-
+namePrefix: dev-
+nameSuffix: ""
 patches:
   - path: patch-ingress.yaml
     target:
