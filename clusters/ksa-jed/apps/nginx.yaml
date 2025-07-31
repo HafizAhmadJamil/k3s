@@ -12,10 +12,10 @@ spec:
     repoURL: https://github.com/HafizAhmadJamil/k3s.git
     targetRevision: HEAD
     path: common/base-nginx
-    helm:
-      values: |
-        ingress:
-          host: nginx.ksa-jed.lab.net
+    plugin: null
+    directory:
+      recurse: true
+  sourceType: kustomize
   syncPolicy:
     automated:
       prune: true
