@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/HafizAhmadJamil/k3s.git
-    path: clusters/ksa-jed/nginx
+    path: common/base-nginx
     targetRevision: HEAD
     sourceType: kustomize
   destination:
