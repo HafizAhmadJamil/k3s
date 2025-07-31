@@ -1,4 +1,9 @@
 resources:
   - ../../common/base-nginx
-patchesStrategicMerge:
-  - apps/nginx-ingress-patch.yaml
+patches:
+  - path: apps/nginx-ingress-patch.yaml
+    target:
+      kind: Ingress
+      name: nginx
+      namespace: default
+
