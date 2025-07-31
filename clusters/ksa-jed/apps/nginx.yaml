@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/HafizAhmadJamil/k3s.git
     targetRevision: HEAD
-    path: common/base-nginx
+    path: clusters/ksa-jed/apps/nginx
     plugin: null
     directory:
       recurse: true
