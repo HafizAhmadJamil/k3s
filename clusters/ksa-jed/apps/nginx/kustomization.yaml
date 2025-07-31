@@ -1,9 +1,0 @@
-resources:
-  - ../../../../common/base-nginx
-
-patches:
-  - path: nginx-ingress-patch.yaml
-    target:
-      kind: Ingress
-      name: nginx
-      namespace: default
