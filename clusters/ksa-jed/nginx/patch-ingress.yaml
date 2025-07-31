@@ -1,0 +1,12 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nginx
+  namespace: default
+spec:
+  rules:
+    - host: nginx.ksa-jed.lab.net
+  tls:
+    - hosts:
+        - nginx.ksa-jed.lab.net
+      secretName: traefik-wildcard
